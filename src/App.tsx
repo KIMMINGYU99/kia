@@ -9,8 +9,7 @@ function App() {
     <Routes>
       {/* 정적 라우팅 */}
       <Route path={"/"} element={<Inspection />} />
-      <Route path={"/kia"} element={<Kia />} />
-      <Route path={"/about"} element={<About />} />
+
       {/* 동적 라우팅 */}
       <Route path={"/detail/:id"} element={<CarDetail />} />
     </Routes>
