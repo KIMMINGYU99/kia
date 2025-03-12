@@ -1,16 +1,16 @@
-import { CoolGeryColors, SecondaryColors } from "../../../types/colors";
+import { CoolColor, SecondaryColor } from "../../../types/color";
 import { Status } from "../types/viehicleStatusCardTypes";
 
 export const STATUS_TEXT_COLORS: Record<Status, string> = {
-  대기: SecondaryColors.GreenDark,
-  미완료: SecondaryColors.RedVariant,
-  완료: CoolGeryColors.CoolGrey20,
+  대기: SecondaryColor.GreenDark,
+  미완료: SecondaryColor.RedVariant,
+  완료: CoolColor.CoolGrey20,
 };
 
 export const STATUS_BG_COLORS: Record<Status, string> = {
-  대기: SecondaryColors.GreenLight,
-  미완료: SecondaryColors.RedLight,
-  완료: CoolGeryColors.CoolGrey5,
+  대기: SecondaryColor.GreenLight,
+  미완료: SecondaryColor.RedLight,
+  완료: CoolColor.CoolGrey5,
 };
 export const statusButton: Record<
   Status,

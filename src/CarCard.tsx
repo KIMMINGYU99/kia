@@ -1,4 +1,4 @@
-import { fontStyle } from "./font";
+import { fontStyle } from "./types/font";
 
 type Props = {
   name: string;

@@ -1,4 +1,4 @@
-import { PrimaryColors } from "../../../types/colors";
+import { PrimaryColor } from "../../../types/color";
 import { StepButtonProps } from "../types/viehicleStatusCardTypes";
 
 export const StepButton = ({ display, text }: StepButtonProps) => {
@@ -10,7 +10,7 @@ export const StepButton = ({ display, text }: StepButtonProps) => {
         height: "50px",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: PrimaryColors.Black,
+        backgroundColor: PrimaryColor.Black,
         color: "white",
       }}
     >
