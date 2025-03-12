@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router";
 import { Inspection } from "./pages/Inspection";
-import { Kia } from "./pages/Kia";
-import { About } from "./pages/About";
+
 import { CarDetail } from "./pages/CarDetail";
 
 function App() {
